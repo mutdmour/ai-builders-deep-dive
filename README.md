@@ -13,6 +13,7 @@ Technical deep dives into how today's AI coding tools and app builders work unde
 | [OpenHands](./openhands-deep-dive.md) | Agent framework | Event sourcing, CodeAct, Docker sandbox, SecretRegistry |
 | [Codex Web](./codex-web-deep-dive.md) | Cloud async agent | codex-1 (o3 fine-tune), two-phase container, App Server (JSON-RPC) |
 | [n8n](./n8n-deep-dive.md) | Self-hosted workflow automation | Node execution engine, expression sandbox, Bull+Redis queue, plugin nodes |
+| [Replit](./replit-deep-dive.md) | Cloud IDE + AI agent + hosting | Nix/overlay filesystem, OT multiplayer, multi-agent (Python DSL), Playwright self-testing |
 
 ## What's Covered per Tool
 
@@ -36,6 +37,7 @@ Each doc covers:
 | OpenHands | CodeAct (executable code) | Docker container | SecretRegistry + output masking | Yes (MIT) |
 | Codex Web | Agent loop (bash + file tools) | Managed cloud container | Phase-gated (setup only) | Partial |
 | n8n | Node execution engine | Local / Docker / Cloud | AES-256-GCM + external vaults | Yes (fair-code) |
+| Replit | Python DSL + Playwright agent | Docker on GCP (Nix env) | Encrypted env vars (same scope as agent) | No |
 
 ## Sources
 
