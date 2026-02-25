@@ -13,6 +13,8 @@ Technical deep dives into how today's AI coding tools and app builders work unde
 | [OpenHands](./openhands-deep-dive.md) | Agent framework | Event sourcing, CodeAct, Docker sandbox, SecretRegistry |
 | [Codex Web](./codex-web-deep-dive.md) | Cloud async agent | codex-1 (o3 fine-tune), two-phase container, App Server (JSON-RPC) |
 | [Replit](./replit-deep-dive.md) | Cloud IDE + AI agent + hosting | Nix/overlay filesystem, OT multiplayer, multi-agent (Python DSL), Playwright self-testing |
+| [Windmill](./windmill-deep-dive.md) | Workflow orchestration platform | Rust + PostgreSQL queue, Deno workers, NSJAIL sandbox, dedicated V8 isolates |
+| [Codewords](./codewords-deep-dive.md) | Chat-native automation platform | Dunia neurosymbolic engine, Python codegen, Pipedream integrations, RLVR |
 
 ## What's Covered per Tool
 
@@ -36,6 +38,8 @@ Each doc covers:
 | OpenHands | CodeAct (executable code) | Docker container | SecretRegistry + output masking | Yes (MIT) |
 | Codex Web | Agent loop (bash + file tools) | Managed cloud container | Phase-gated (setup only) | Partial |
 | Replit | Python DSL + Playwright agent | Docker on GCP (Nix env) | Encrypted env vars (same scope as agent) | No |
+| Windmill | Script execution (versioned, hash-addressed) | Docker + Deno/Python/Go workers | Encrypted Variables + Resources (AI never accesses) | Yes (AGPLv3) |
+| Codewords | Python code generation (chat-driven) | Serverless (managed cloud) | Pipedream OAuth vault + encrypted API keys | No |
 
 ## Sources
 
